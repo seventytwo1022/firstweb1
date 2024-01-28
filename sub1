@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seventy_Two
+    </title>
+    <link href="https://fonts.cdnfonts.com/css/pp-neue-montreal" rel="stylesheet">
+    <link rel="stylesheet" href="./72.css">
+</head>
+
+<body>
+    <div class="sub_screen">
+        This is a sub page to make new things.
+    </div>
+</body>
+</html>
