@@ -18,6 +18,11 @@ div {
   list-style: none;
 }
 
+a, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
 .header {
   position: fixed;
   left: 0px;
@@ -153,6 +158,9 @@ div {
 .main .project_wrap .project_items .pr_item {
   width: calc(25vw - 50px);
   position: relative;
+}
+.main .project_wrap .project_items .pr_item.pri2 {
+  margin-top: 50px;
 }
 .main .project_wrap .project_items .pr_item .pr_info {
   margin-top: 18px;

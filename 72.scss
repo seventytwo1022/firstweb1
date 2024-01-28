@@ -17,6 +17,10 @@ div {
   margin: 0px;
   list-style: none;
 }
+a,a:visited{
+  text-decoration: none;
+  color:inherit;
+}
 
 
 .header {
@@ -161,6 +165,9 @@ div {
       .pr_item{
         width:calc(25vw - 50px);
         position: relative;
+        &.pri2{
+          margin-top:50px;
+        }
     
         .pr_info {
           // position: absolute;
