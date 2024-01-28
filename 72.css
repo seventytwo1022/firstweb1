@@ -1,0 +1,163 @@
+body {
+  font-family: "PP Neue Montreal", sans-serif;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+}
+
+ul,
+li,
+button,
+p,
+div {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.header {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 10px;
+  z-index: 100;
+}
+
+.deco_lines {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 50;
+}
+.deco_lines .deco_line {
+  position: absolute;
+  left: 25%;
+  top: 0px;
+  bottom: 0px;
+  width: 1px;
+  background-color: #3a3a3a;
+}
+.deco_lines .deco_line.dl2 {
+  left: 50%;
+}
+.deco_lines .deco_line.dl3 {
+  left: 75%;
+}
+
+.main_menu {
+  z-index: 100;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin-left: 25px;
+  width: 25%;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.main {
+  background-size: cover;
+  height: 250vh;
+  font-size: 13vw;
+  line-height: 13vw;
+  font-weight: 500;
+  padding-top: 130px;
+  color: #fff;
+  text-align: left;
+  z-index: 60;
+  position: relative;
+}
+.main .main_title {
+  padding-left: 60px;
+}
+.main .showcase_sub {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 70;
+}
+.main .showcase_sub .show {
+  font-size: 12vw;
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  margin-top: -10vw;
+  left: -20px;
+}
+.main .showcase_sub .case {
+  position: absolute;
+  font-size: 12vw;
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+  box-sizing: border-box;
+  top: 50%;
+  right: 10px;
+  margin-top: -10vw;
+}
+.main .showcase_sub .showcase_img {
+  box-sizing: border-box;
+  width: 420px;
+  overflow: hidden;
+}
+.main .showcase_sub .showcase_img img {
+  width: 100%;
+  transition-duration: 0.5s;
+}
+.main .showcase_sub .showcase_img:hover img {
+  transform: scale(1.2);
+}
+.main .project_wrap {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0px 25px;
+}
+.main .project_wrap .project_info {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 10vh;
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: 300;
+  color: #ffffff;
+}
+.main .project_wrap .project_items {
+  display: flex;
+  width: -moz-min-content;
+  width: min-content;
+  align-items: center;
+  gap: 50px;
+}
+.main .project_wrap .project_items .pr_item {
+  width: calc(25vw - 50px);
+  position: relative;
+}
+.main .project_wrap .project_items .pr_item .pr_info {
+  margin-top: 18px;
+  font-size: 12px;
+  line-height: 15px;
+}
+.main .project_wrap .project_items .pr_item .pr_img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}/*# sourceMappingURL=72.css.map */
